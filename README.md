@@ -1,0 +1,16 @@
+# Transform
+  - Excerpt
+    - striptags, insert
+  - Content
+    - JSDOM
+    - check for tables, switch to 2 column layout
+  - Slug: set to api
+  - categories / tags
+    - Lookup label by id (api call)
+    - ensure label is in new site
+      - create category/label if not
+    - get new sites id
+    - set id for new site
+  - authorship
+    - fetch author info, serlialize it (JSON)
+    - set to custom metadata field in new site
