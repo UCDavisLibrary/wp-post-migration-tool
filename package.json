@@ -10,9 +10,11 @@
   "author": "jrmerz@ucdavis.edu",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/storage": "^5.18.2",
     "@wordpress/block-library": "^7.0.2",
     "@wordpress/blocks": "^11.2.2",
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "jsdom": "^19.0.0",
     "node-fetch": "^3.2.0",
     "striptags": "^3.2.0",
