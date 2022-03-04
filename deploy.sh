@@ -11,8 +11,8 @@ CONTAINER_NAME=website-migration-status
 IMAGE=gcr.io/$GCR_PROJECT_ID/$CONTAINER_NAME
 DEPLOYMENT_NAME=$CONTAINER_NAME
 
-# gcloud config set project $PROJECT_ID
-# gcloud builds submit --tag $IMAGE
+gcloud config set project $PROJECT_ID
+gcloud builds submit --tag $IMAGE
 
 gcloud beta run deploy $DEPLOYMENT_NAME \
   --image $IMAGE \
