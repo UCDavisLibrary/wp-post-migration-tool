@@ -5,3 +5,5 @@ node_modules
 .status-dir
 .errors.json
 service-account.json
+logs
+.DS_Store
