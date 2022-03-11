@@ -12,7 +12,7 @@ IMAGE=gcr.io/$GCR_PROJECT_ID/$CONTAINER_NAME
 DEPLOYMENT_NAME=$CONTAINER_NAME
 
 gcloud config set project $PROJECT_ID
-gcloud builds submit --tag $IMAGE
+# gcloud builds submit --tag $IMAGE
 
 gcloud beta run deploy $DEPLOYMENT_NAME \
   --image $IMAGE \
@@ -23,4 +23,4 @@ gcloud beta run deploy $DEPLOYMENT_NAME \
   --max-instances=1 \
   --execution-environment=gen2 \
   --no-cpu-throttling \
-  --set-env-vars=SOURCE_HOST="https://library.ucdavis.edu",SINK_HOST="https://sandbox.library.ucdavis.edu"
+  --set-env-vars=SOURCE_HOST="https://library.ucdavis.edu",SINK_HOST="https://stage.library.ucdavis.edu"
