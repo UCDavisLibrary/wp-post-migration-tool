@@ -7,3 +7,4 @@ node_modules
 service-account.json
 logs
 .DS_Store
+.htaccess
