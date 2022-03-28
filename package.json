@@ -10,6 +10,7 @@
   "author": "jrmerz@ucdavis.edu",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/bigquery": "^5.12.0",
     "@google-cloud/storage": "^5.18.2",
     "@wordpress/block-library": "^7.0.2",
     "@wordpress/blocks": "^11.2.2",
