@@ -4,11 +4,13 @@ import config from "../lib/config.js"
 import {PostTransform} from "../lib/transform/index.js";
 import errors from "../lib/errors.js";
 
-// const TYPE = 'posts';
-const TYPE = 'exhibit';
+const TYPE = 'posts';
+// const TYPE = 'exhibit';
 
 async function allPosts() {
   let page = 1;
+
+  console.log('Migrating from '+config.source.host+' to '+config.sink.host);
 
   let {host, apiPath} = config.source;
   while( 1 ) {
