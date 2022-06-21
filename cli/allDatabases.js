@@ -20,21 +20,24 @@ async function allDatabases() {
     
     for( let result of list ) {
 
+      let link
       try {
-        let resp = await fetch(result.link);
-        let window = (new JSDOM(await resp.text())).window;
-        let link = window.document.querySelector('a[data-db-location]').getAttribute('href');
-        
-        let url = new URL(link);
+        // let resp = await fetch(result.link);
+        // let window = (new JSDOM(await resp.text())).window;
+        // link = window.document.querySelector('a[data-db-location]').getAttribute('href');
+        // let url = new URL(result.link);
+
+
 
         let sourcePath = new URL(result.link).pathname;
-        console.log(sourcePath, url.href);
+        link = config.libguides.host+config.libguides.azQueryPath+(sourcePath.replace(/(^\/|\/$)/g, '').split('/').pop())
+        console.log(sourcePath, link);
 
         let test = new URL(config.sink.host+config.sink.redirectApiPath);
         test.searchParams.append('filterBy[url]', sourcePath);
         test.searchParams.append('filterBy[status]', 'enabled');
         test.searchParams.append('filterBy[action]', 'url');
-        resp = (await wp.fetchJson(test.href, false, false)).items;
+        let resp = (await wp.fetchJson(test.href, false, false)).items;
         
         let alreadyCreated = false;
         for( let item of resp ) {
@@ -54,7 +57,7 @@ async function allDatabases() {
             match_type : 'url',
             action_type : 'url',
             group_id: REDIRECTS_GROUP,
-            action_data : {url: url.href.replace(config.sink.host, '')}
+            action_data : {url: link}
           }
         );
         console.log('  - created');
