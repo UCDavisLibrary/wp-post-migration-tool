@@ -8,7 +8,7 @@ import CollectionPost from '../lib/transform/collection.js';
 function readCsv() {
     const __dirname = path.dirname(fileURLToPath(import.meta.url));
     const csvContent = fs.readFileSync(
-      path.resolve(__dirname, '..', 'samp.csv'), 'utf-8'
+      path.resolve(__dirname, '..', 'result.csv'), 'utf-8'
     );
   
     return new Promise((resolve, reject) => {
