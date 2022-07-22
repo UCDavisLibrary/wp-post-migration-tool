@@ -12,7 +12,7 @@ def json_config(typedef, odf, givendf):
     # print(odf.columns)
 
 
-    df = pd.merge(odf, givendf, how="left", left_on ='call_number', right_on = callnumber)
+    df = pd.merge(odf, givendf, how="outer", left_on ='call_number', right_on = callnumber)
     # df = df[(df['type'] == "manuscript") | (df['type'] == "ua-collection")]
     # print(df.columns)
 
@@ -32,7 +32,6 @@ def jsonAdd(json_name, df, Tdf):
     odf["call_number"] = odf["call_number"].apply(arrayChange)
     odf = odf[odf["call_number"].isin(Tdf["call_number"])]
 
-
     f = open(json_name)
     d = json.load(f)
 
@@ -40,7 +39,6 @@ def jsonAdd(json_name, df, Tdf):
         for i in d:
             dN = pd.json_normalize(i, max_level=2)
             df = df.append(dN, ignore_index=True)
-
 
 
     if(json_name == "manuscript.json"):
@@ -68,12 +66,12 @@ if __name__ == '__main__':
     dfMan = jsonAdd('manuscript.json', df1, Tdf)
     OdfM = dfMan[(dfMan['type'] != "manuscript")]
     dfMan = dfMan[(dfMan['type'] == "manuscript")]
-    print(OdfM)
+    # print(OdfM)
 
     dfCol = jsonAdd('ua-collection.json', df2, Tdf)
     OdfC = dfCol[(dfCol['type'] != "ua-collection")]
     dfCol = dfCol[(dfCol['type'] == "ua-collection")]
-    print(OdfC)
+    # print(OdfC)
 
     odf = pd.concat([OdfM, OdfC])
     results = pd.concat([dfMan, dfCol])
