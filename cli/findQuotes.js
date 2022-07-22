@@ -7,6 +7,8 @@ import errors from "../lib/errors.js";
 const TYPE = 'posts';
 // const TYPE = 'exhibit';
 
+let ids = [];
+
 async function allPosts() {
   let page = 1;
 
@@ -15,22 +17,11 @@ async function allPosts() {
   let {host, apiPath} = config.source;
   while( 1 ) {
     let list = await wp.fetchJson(host+apiPath+'/'+TYPE+'?per_page=100&page='+page, true, false);
-    // let list = [await wp.fetchJson(host+apiPath+'/'+TYPE+'/60211', true, false)]
-
+    
     for( let result of list ) {
-      try {
-        let transform = new PostTransform(result);
-        await transform.run({skipExisting: false});
-      } catch(e) {
-        console.error('Failed to migrate post: '+result.id);
-        console.error(e);
-        errors.handle(result, {
-          error : {
-            message : e.message,
-            stack : e.stack
-          },
-          description: 'Failed to migrate post: '+result.id
-        });
+      if( result.content.rendered.match(/blockquote/) ) {
+        console.log(result.id, result.slug);
+        ids.push(result.id+' '+result.slug);
       }
     }
 

@@ -29,12 +29,11 @@ function readCsv() {
     for( let key in row ) {
       row[key] = row[key].trim();
     }
-
     let person = new PersonPost(row);
     await person.parse();
     
-    c++;
-    if( c == 200 ) break;
+    // c++;
+    // if( c == 20 ) break;
   }
 
 })();

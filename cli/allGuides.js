@@ -4,7 +4,7 @@ import config from "../lib/config.js"
 import striptags from "striptags";
 
 const TYPE = 'article';
-const SLUG_PATH = '/stub/';
+const SLUG_PATH = '/guide-missing/';
 
 const REDIRECTS_GROUP = 3;
 
@@ -23,7 +23,7 @@ async function allGuides() {
         url.searchParams.append('contact_name', author.name);
         url.searchParams.append('contact_id', author.email.replace(/@.*/, ''));
         url.searchParams.append('type', 'libguide');
-        url.searchParams.append('name', striptags(result.title.rendered));
+        url.searchParams.append('guide_name', striptags(result.title.rendered));
 
         let sourcePath = new URL(result.link).pathname;
         console.log(sourcePath, url.href.replace(config.sink.host, ''));
