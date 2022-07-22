@@ -15,7 +15,8 @@ async function allPosts() {
   let {host, apiPath} = config.source;
   while( 1 ) {
     let list = await wp.fetchJson(host+apiPath+'/'+TYPE+'?per_page=100&page='+page, true, false);
-    
+    // let list = [await wp.fetchJson(host+apiPath+'/'+TYPE+'/60211', true, false)]
+
     for( let result of list ) {
       try {
         let transform = new PostTransform(result);

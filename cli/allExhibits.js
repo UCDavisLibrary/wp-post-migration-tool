@@ -14,7 +14,7 @@ async function allPosts() {
   let {host, apiPath} = config.source;
   while( 1 ) {
     let list = await wp.fetchJson(host+apiPath+'/'+TYPE+'?per_page=100&page='+page, true, false);
-    // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/59419', true, false);
+    // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/59884', true, false);
     // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/50307', true, false);
 
     // list = [list];
