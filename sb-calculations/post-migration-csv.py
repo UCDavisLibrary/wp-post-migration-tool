@@ -19,8 +19,12 @@ def json_config(typedef, odf, givendf):
     return df
 
 def arrayChange(x):
+    separator = ';'
     if (x == ''):
         return x
+    if(len(x) != 1):
+        return separator.join(x)
+        
     return x[0]
 
 def jsonAdd(json_name, df, Tdf):
@@ -63,6 +67,7 @@ if __name__ == '__main__':
     Td = pd.read_csv('ua_combined_call_number.csv')
     Tdf = Td[Td['add'] == 'T']
 
+
     dfMan = jsonAdd('manuscript.json', df1, Tdf)
     OdfM = dfMan[(dfMan['type'] != "manuscript")]
     dfMan = dfMan[(dfMan['type'] == "manuscript")]
@@ -76,6 +81,11 @@ if __name__ == '__main__':
     odf = pd.concat([OdfM, OdfC])
     results = pd.concat([dfMan, dfCol])
 
+    odf = odf[~odf["call_number"].isin(results["call_number"])]
+    odf = odf.drop_duplicates()
+
+
+    results = pd.concat([odf, results])
 
     dfMan.to_csv('manuscript_results.csv') #Just Manuscript Data
     dfCol.to_csv('ua_collection_results.csv') #Just UA data
