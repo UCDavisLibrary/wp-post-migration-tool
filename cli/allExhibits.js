@@ -15,14 +15,18 @@ async function allPosts() {
   while( 1 ) {
     let list = await wp.fetchJson(host+apiPath+'/'+TYPE+'?per_page=100&page='+page, true, false);
     // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/59884', true, false);
-    // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/50307', true, false);
+    // let list = await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/13585', true, false);
 
     // list = [list];
 
+    // let list = [8791, 7655, 39920, 38860, 33913, 42538, 14241, 43828, 8802, 8399];
+
     for( let result of list ) {
+    // for( let id of list) {
+      // let result =  await wp.fetchJson('https://www.library.ucdavis.edu/wp-json/wp/v2/exhibit/'+id, true, false)
       try {
         let transform = new ExhibitTransform(result);
-        await transform.run({skipExisting: false});
+        await transform.run({skipExisting: true});
       } catch(e) {
         console.error('Failed to migrate post: '+result.id);
         console.error(e);

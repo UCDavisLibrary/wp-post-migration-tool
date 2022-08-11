@@ -20,7 +20,7 @@ async function allPosts() {
     for( let result of list ) {
       try {
         let transform = new PostTransform(result);
-        await transform.run({skipExisting: false});
+        await transform.run({skipExisting: true});
       } catch(e) {
         console.error('Failed to migrate post: '+result.id);
         console.error(e);

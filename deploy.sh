@@ -23,4 +23,4 @@ gcloud beta run deploy $DEPLOYMENT_NAME \
   --max-instances=1 \
   --execution-environment=gen2 \
   --no-cpu-throttling \
-  --set-env-vars=SOURCE_HOST="https://library.ucdavis.edu",SINK_HOST="https://stage.library.ucdavis.edu"
+  --set-env-vars=SOURCE_HOST="https://www.library.ucdavis.edu",SINK_HOST="https://stage.library.ucdavis.edu"
