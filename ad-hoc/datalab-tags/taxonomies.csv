@@ -1,0 +1,295 @@
+taxonomy,value,newCategory,newTag,notes
+tag,maptimeDavis,Community,"Research and Learning Cluster, Spatial Sciences, maptimeDavis",Research and Learning Cluster
+tag,on_campus,NA,NA,
+tag,upco,NA,NA,
+tag,upcoming_announcements,NA,NA,
+tag,upcoming_community,Community,NA,
+tag,upcoming_events,Events,NA,
+tag,& Education,NA,NA,
+tag,2017 Dec Tutorials,NA,NA,
+tag,2017 Oct Opinions,NA,NA,
+tag,2017 Sep News,NA,NA,
+tag,2017 Sep Tutorials,NA,NA,
+tag,3D,Research,"Data Visualization, 3D Data",
+tag,About Gregory Piatetsky,NA,NA,
+tag,ADVANCED TEXT ANALYSIS,NA,Digital Humanities,
+tag,Affiliated Event,Community,NA,
+tag,affirmative action,NA,NA,discard
+tag,affordable housing,NA,NA,discard
+tag,AI,NA,NA,discard
+tag,Amazon Web Services,NA,"Cloud Computing, Remote Computing",discard
+tag,Anaconda,NA,"Anaconda, Environment Management, Python",discard
+tag,and Research Data Management,NA,NA,discard
+tag,Andrew Piper,NA,NA,discard
+tag,API,NA,"API, Data Access",discard
+tag,Applied Bayesian Statistics,Community,"Research and Learning Cluster, Bayesian Statistics",
+tag,Applied Data Science,NA,NA,discard
+tag,ArcGIS,NA,Spatial Sciences,discard
+tag,Articles,NA,NA,discard
+tag,AWS,NA,"Cloud Computing, Remote Computing",discard
+tag,Azure,NA,"Cloud Computing, Remote Computing",discard
+tag,Bayes,NA,Bayesian Statistics,discard
+tag,Bayesian,NA,Bayesian Statistics,discard
+tag,Bernard Marr,NA,,discard
+tag,Bibliographies,NA,Bibliometrics,discard
+tag,Bibliometric Dat,NA,Bibliometrics,discard
+tag,Big Data,NA,NA,discard
+tag,Bloomberg,NA,NA,discard
+tag,Brennan,NA,NA,discard
+tag,C/C++,NA,C/C++,discard
+tag,Caitlin Marley,NA,NA,discard
+tag,Campus Event,Events,,
+tag,Carla Gentry,NA,NA,discard
+tag,Cartography,NA,Spatial Sciences,discard
+tag,CaSITA,NA,"Datasets, Spatial Sciences",discard
+tag,census,NA,Datasets,discard
+tag,cloud-computing,NA,Remote Computing,discard
+tag,Cluster Computing,NA,Remote Computing,discard
+tag,Colab Project,Research,NA,discard
+tag,collaboration,NA,NA,discard
+tag,Command line,NA,Command Line,discard
+tag,computational pedagogy,Community,"Research and Learning Cluster, Computational Pedagogy",
+tag,Computer Vision,NA,Computer Vision,discard
+tag,Coronavirus (2019-nCoV),Research,COVID,discard
+tag,COVID-19,Research,COVID,discard
+tag,Dat,NA,NA,discard
+tag,data,NA,NA,discard
+tag,DATA CLEANING/PREP TOOLS,NA,NA,discard
+tag,Data Curation,NA,NA,discard
+tag,Data Daily | Data News,NA,NA,discard
+tag,Data Education,Education,NA,discard
+tag,Data Feminism,Community,"Research and Learning Cluster, Data Feminism",
+tag,DATA GATHERING TOOLS,NA,NA,discard
+tag,Data Preparation,NA,NA,discard
+tag,Data Preprocessing,NA,NA,discard
+tag,Data Science,NA,NA,discard
+tag,Data Science Platform,NA,NA,discard
+tag,data storage,NA,NA,discard
+tag,Data Visualization,NA,Data Visualization,discard
+tag,Databases,NA,Databases,discard
+tag,DataFest,Events,Data Challenge,
+tag,data lab,NA,NA,discard
+tag,datalab,NA,NA,discard
+tag,DataLab Affiliate,NA,NA,discard
+tag,DataLab Event,Events,NA,
+tag,datalab events,Events,NA,
+tag,DataLab Faculty,Community,People,
+tag,DataLab Staff,Community,People,
+tag,DATASET SOURCES,NA,Datasets,discard
+tag,Davis Python Users Group,Community,"Research and Learning Cluster, User Group, Python, Davis Python Users Group",discard
+tag,Davis R Users Group,Community,"Research and Learning Cluster, User Group, Python, Davis R Users Group",discard
+tag,Digi AVAs,Research,Spatial Sciences,discard
+tag,Digital Curation & Digital Preservation,NA,NA,discard
+tag,Digital History,NA,NA,discard
+tag,Digital Humanities,Community,"Research and Learning Cluster, Digital Humanities",discard
+tag,Digital Scholarship Publications,NA,Digital Humanities,discard
+tag,DJ Patil,NA,NA,discard
+tag,drones,NA,NA,discard
+tag,DSN,NA,NA,discard
+tag,Dynamic Visualization,NA,Data Visualization,discard
+tag,EBBA,NA,Digital Humanities,discard
+tag,Economic Conditions and Trends,NA,NA,discard
+tag,Education (K-12),NA,NA,discard
+tag,Education Resources For Use & Management of Data,Education,NA,discard
+tag,Election Data Challange,Events,"Data Challenge, CA Election Data Challenge",discard
+tag,Election Data Chellenge,Events,"Data Challenge, CA Election Data Challenge",discard
+tag,Ensemble methods,NA,NA,discard
+tag,ers,NA,NA,discard
+tag,Event,Events,NA,
+tag,Events,Events,NA,
+tag,Excel,NA,NA,discard
+tag,External EventFall 2017,NA,NA,discard
+tag,Fall 2018,NA,NA,discard
+tag,fall 2019,NA,NA,discard
+tag,Featured Post,NA,NA,discard
+tag,Features,NA,NA,discard
+tag,FTD,NA,NA,discard
+tag,Fundamentals,NA,NA,discard
+tag,Gaye Tuchman,NA,NA,discard
+tag,ge,NA,NA,discard
+tag,GEE,NA,NA,discard
+tag,geocoding,NA,"Spatial Sciences, Geocoding",discard
+tag,geospatial,NA,"Spatial Sciences, Geospatial",discard
+tag,GI,NA,,discard
+tag,GIS,NA,"Spatial Sciences, Geospatial, GIS",discard
+tag,git,NA,"Version Control, Git",discard
+tag,GitHub,NA,"Version Control, GitHub",discard
+tag,google earth,NA,Spatial Sciences,discard
+tag,Google Earth Engine,NA,Spatial Sciences,discard
+tag,Hack for California,Community,"Research and Learning Cluster, Hack for California",
+tag,Hackathon,Events,"Data Challenge, Hackathon",
+tag,HC-LAP,NA,NA,discard
+tag,Health Data,NA,Health Data Science,discard
+tag,Health Data Science & Systems,Community,"Research and Learning Cluster, Health Data Science",
+tag,Health Data Science and Systems,Community,"Research and Learning Cluster, Health Data Science",
+tag,history,NA,NA,
+tag,Hood Canal Landscape,Research,Spatial Sciences,
+tag,Hoyt Long,NA,NA,
+tag,HPC,NA,Remote Computing,
+tag,Image Recognition,NA,Computer Vision,
+tag,Influencers,NA,NA,
+tag,InstallFest,Events,InstallFest,
+tag,intermediate python,NA,Python,
+tag,intermediate R,NA,R,
+tag,Interviews,NA,NA,
+tag,introductory,NA,NA,
+tag,JavaScript,NA,JavaScript,
+tag,Jesse Salinas (assessor/clerk-recorder and chief election official for Yolo County),NA,NA,
+tag,Julia,Community,"Research and Learning Cluster, User Group, UC Julia Users Group",discard
+tag,Julia Learning Group,Community,"Research and Learning Cluster, User Group, UC Julia Users Group",
+tag,Julia Users Group meetup,Community,"Research and Learning Cluster, User Group, UC Julia Users Group",
+tag,Jupyter,NA,Jupyter,discard
+tag,KeckCAVES,Research,Data Visualization,discard
+tag,Kirk D. Borne,NA,NA,discard
+tag,Labor and Jobs,NA,NA,discard
+tag,labor regulation,NA,NA,discard
+tag,Learn more about the challenge's goals,Events,Data Challenge,discard
+tag,LinkedIn,NA,NA,discard
+tag,literature,NA,NA,discard
+tag,Mackine Learning,NA,Machine Learning,discard
+tag,Methods,NA,NA,discard
+tag,Microsoft,NA,NA,discard
+tag,Mobile Big Data,NA,NA,discard
+tag,mobile phone data,NA,NA,discard
+tag,mobility,NA,NA,discard
+tag,Model Validation,NA,NA,discard
+tag,modeling,NA,NA,discard
+tag,Moving Ahead with Support for Digital Humanities,NA,Digital Humanities,discard
+tag,natural language processing,NA,"Digital Humanities, NLP, Natural Language Processing",discard
+tag,NETWORK TOOLS,NA,Network Analysis,discard
+tag,network visualization,NA,"Network Analysis, Data Visualization",discard
+tag,Nicholas Dames,NA,NA,discard
+tag,NLP,NA,"Digital Humanities, NLP, Natural Language Processing",discard
+tag,NLP for Healthcare,NA,"Health Data Science, Natural Language Processing, NLP",discard
+tag,NOVELTY,NA,,discard
+tag,OCR,NA,"OCR, Optical Character Recognition",discard
+tag,Open Data,NA,Open Data,discard
+tag,OpenStreetMap,NA,Spatial Sciences,discard
+tag,Optical Character Recognition,NA,"OCR, Optical Character Recognition",discard
+tag,Overviews,NA,NA,discard
+tag,Packages,NA,NA,discard
+tag,Parallel Computing,NA,Parallel Computing,discard
+tag,Parenting,NA,NA,discard
+tag,PDF,NA,NA,discard
+tag,People,NA,NA,discard
+tag,Philosophy,NA,NA,discard
+tag,podcast,NA,NA,discard
+tag,Privacy,NA,NA,discard
+tag,Production,NA,NA,discard
+tag,Projections,NA,NA,discard
+tag,Projects,NA,NA,discard
+tag,Python,NA,Python,discard
+tag,Python Meet-up,Community,"Research and Learning Cluster, Users Group, Python,  Davis Python Users Group",
+tag,QGIS,NA,Spatial Sciences,discard
+tag,QL,NA,NA,discard
+tag,Quintessance,Research,Digital Humanities,discard
+tag,R,NA,R,discard
+tag,R basics,NA,R,discard
+tag,R language,NA,R,discard
+tag,R meet-up,Community,"Research and Learning Cluster, Users Group, Davis R Users Group, R",
+tag,raster,NA,Spatial Sciences,discard
+tag,reading group,NA,,discard
+tag,Recent News,NA,,discard
+tag,Recession and Depression,NA,,discard
+tag,regression,NA,Statistics,discard
+tag,Regular Expressions,NA,Data Wrangling,discard
+tag,reproducible research,NA,Reproducible Research,discard
+tag,res,NA,NA,discard
+tag,Research and Learning Cluster,Community,Research and Learning Cluster,
+tag,Research Cluster,Community,Research and Learning Cluster,
+tag,research computing,NA,NA,discard
+tag,resource,NA,NA,discard
+tag,Resources,NA,NA,discard
+tag,Richard Jean Sos,NA,NA,discard
+tag,rstats,NA,R,discard
+tag,Sarah E.,NA,NA,discard
+tag,scientific research,NA,NA,discard
+tag,Scientist,NA,NA,discard
+tag,Shiny,NA,"Data Visualization, Shiny",discard
+tag,Shutdowns (Institutional),NA,NA,discard
+tag,Sign up to talk with over 20 domain experts and technical mentors from across the university. Register now for the Challenge Kickoff! And,Events,"Data Challenge, CA Election Data Challenge",discard
+tag,Skills,NA,NA,discard
+tag,smart data,NA,NA,discard
+tag,Smart Data News,NA,NA,discard
+tag,SNA,NA,NA,discard
+tag,social good,NA,NA,discard
+tag,social media data,NA,NA,discard
+tag,software,NA,NA,discard
+tag,Spatial,NA,Spatial Sciences,discard
+tag,spatial data infrastructure,NA,Spatial Sciences,discard
+tag,Spatial Sciences,NA,Spatial Sciences,discard
+tag,Spring 2018,NA,NA,discard
+tag,Spring 2019,NA,NA,discard
+tag,SQL,NA,"Databases, SQL",discard
+tag,Stan,NA,Bayesian Statistics,discard
+tag,start-up project,NA,NA,discard
+tag,Startup,NA,NA,discard
+tag,statistical graphics,NA,Data Visualization,discard
+tag,Statistician,NA,NA,discard
+tag,Statistics,NA,NA,discard
+tag,Summer 2018,NA,NA,discard
+tag,tal,NA,NA,discard
+tag,team,NA,NA,discard
+tag,Text Analytics,NA,"Digital Humanities, Text Analysis",discard
+tag,TEXT CORPUS EXPLORATION THROUGH GUI,NA,"Digital Humanities, Text Analysis",discard
+tag,TEXT CORPUS EXPLORATION THROUGH WEB INTERFACE,NA,"Digital Humanities, Text Analysis",discard
+tag,Text Mining,NA,"Digital Humanities, Text Analysis",discard
+tag,The Chronicle Review,NA,NA,discard
+tag,timeline and available resources,NA,NA,discard
+tag,Timothy Brennan,NA,NA,discard
+tag,Tom Davenport,NA,NA,discard
+tag,Tools,NA,NA,discard
+tag,Topic Modeling,NA,"Digital Humanities, Natural Language Processing, NLP",discard
+tag,Trends,NA,NA,discard
+tag,Tutorial,NA,NA,discard
+tag,UC Julia Users Group,Community,"Research and Learning Cluster, Users Group, Julia, UC Julia Users Group",
+tag,Undergraduate,NA,NA,discard
+tag,Underwood,NA,NA,discard
+tag,Unix,NA,Command Line,discard
+tag,up,NA,NA,discard
+tag,UpcomingEvent,Events,NA,
+tag,vector,NA,NA,discard
+tag,versi,NA,NA,discard
+tag,Version Control,NA,Version Control,discard
+tag,via bookmarklet,NA,NA,discard
+tag,virtual reality,NA,Data Visualization,discard
+tag,Visualization,NA,NA,discard
+tag,voting rights,NA,NA,discard
+tag,VR,NA,"Data Visualization, Virtual Reality",discard
+tag,Webhooks,NA,NA,discard
+tag,Webscraping,NA,Webscraping,discard
+tag,which cover topics including health care,NA,NA,discard
+tag,Winter 2018,NA,NA,discard
+tag,Winter 2019,NA,NA,discard
+tag,women,NA,NA,discard
+tag,Women and Girls,NA,NA,discard
+tag,Workshop,Education,Workshop,
+category,About,,,For old menu
+category,About the DSL,,,For old menu
+category,Affiliates Programs,Community,,For old menu
+category,Announcements,,,
+category,Community,Community,,
+category,Data Science,,,
+category,Digital Humanities,,Digital Humanities,
+category,Digital Library,,,
+category,Events,Events,,
+category,Events_Sidebar,,,
+category,External Newsfeed,,,
+category,Get Involved,,,
+category,Health Data Science and Systems RLC,Community,"Research and Learning Cluster, Health Data Science",
+category,Jobs,Opportunities,,
+category,Menu Categories,,,For old menu
+category,News_Sidebar,,,
+category,Opportunities,Opportunities,,For old menu
+category,Projects,Research,,For old menu
+category,Active Projects,Research,,For old menu
+category, Collaborations,Research,,For old menu
+category,Past Projects,Research,,For old menu
+category,Research Clusters,Community,,For old menu
+category,DHRC,Community,,For old menu
+category,Spatial Science RLC,Community,,For old menu
+category,Research Pipeline,,,
+category,Research Toolkit,,,For old menu
+category,Resources,,,
+category,Uncategorized,,,
+category,Workshop,Education,,
