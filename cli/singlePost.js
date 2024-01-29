@@ -4,7 +4,7 @@ import {PostTransform} from "../lib/transform/index.js";
 
 async function singlePost() {
 
-  let transform = new PostTransform(await wp.get('post', '70313'));
+  let transform = new PostTransform(await wp.get('post', '70380'));
   await transform.run();
 
   process.exit();
